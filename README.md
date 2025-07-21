@@ -1,10 +1,10 @@
-Architectural Design Assistant
+#Architectural Design Assistant
 A creative tool designed for architects and engineers that transforms text briefs and rough sketches into refined design concepts using multimodal AI, featuring compliance checking and design narrative generation.
 
-Project Objective
+##Project Objective
 To develop a full-stack web application that acts as an AI-powered assistant for architectural design, demonstrating multimodal input processing (text and sketch) and AI-driven concept generation and analysis. The project aims to provide a proof-of-concept for how AI can streamline early-stage architectural design workflows.
 
-Key Features Implemented
+###Key Features Implemented
 User Authentication: Secure user registration and login using JWT (JSON Web Tokens) for session management, ensuring personalized design experiences.
 
 Design Input: Intuitive React interface with an interactive drawing canvas for rough sketch input and a text area for detailed architectural briefs.
@@ -21,9 +21,9 @@ Provides a Design Narrative and Code Compliance Status (mocked based on keywords
 
 Design History: Users can view a personalized list of their past generated designs, showcasing design iteration and version control capabilities.
 
-New Design Workflow: A dedicated button to clear inputs and start a fresh design concept.
+##New Design Workflow: A dedicated button to clear inputs and start a fresh design concept.
 
-Technologies Used
+###Technologies Used
 Frontend
 React.js: The core library for building the dynamic user interface.
 
@@ -124,8 +124,8 @@ Copy the generated API Key immediately. This key will be explicitly used in your
 
 For testing, ensure "Don't restrict key" is selected under "API restrictions" for this key.
 
-Project Setup Steps
-Clone the repository:
+#Project Setup Steps
+##Clone the repository:
 Open a new Terminal/Command Prompt/PowerShell window (not Administrator).
 
 cd C:\Users\YourUsername\OneDrive\Documents\Projects # Or your preferred projects directory
@@ -134,7 +134,7 @@ cd ARCHITECTURE-AI # Navigate into the cloned repository root
 
 (Note: If you already have the project folders locally and initialized Git outside of cloning, ensure your terminal is in the root ARCHITECTURE-AI folder and run git pull origin main --allow-unrelated-histories to sync with the GitHub README, then resolve any merge conflicts, and finally git push origin main.)
 
-Backend Setup:
+##Backend Setup:
 
 Navigate to the backend directory:
 
